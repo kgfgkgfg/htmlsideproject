@@ -1,0 +1,62 @@
+*{
+    padding :0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family:DFkai-sb,sans-self;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    padding: 0.5rem;
+}
+header div.top{
+    padding:1 rem;
+    background-image: url("./images/background.png");
+}
+header div.top h1{
+    font-size: 2.5 rem;
+}
+header div.top h3{
+    font-size: 1 rem;
+    font-family: none;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+
+}
+header nav ul li{
+    padding: 0.8rem 1.2rem;
+}
+header nav{
+    background-color: black;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.25 rem;
+    transition: all 1s ease;
+}
+.active{
+    color:yellow;
+}
+nav ul li a:hover{
+    color:red;
+}
+main{
+    display:flex;
+    flex-wrap:wrap;
+}
+main section {
+    padding: 1 rem;
+}
+section.left{
+    flex:1 1 200px;
+    margin-left: 2rem;
+}
+section.right{
+    flex:4 1 500px;
+}
+section.left img{
+    width:90%;
+}
+
